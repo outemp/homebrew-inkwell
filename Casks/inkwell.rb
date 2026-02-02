@@ -7,6 +7,9 @@ cask "inkwell" do
   desc "Beautiful, minimal Markdown viewer for macOS"
   homepage "https://github.com/outemp/inkwell"
 
+  # Skip quarantine since app is not code-signed
+  caveats "This app is not code-signed. If macOS says it's damaged, run:\n  sudo xattr -cr /Applications/Inkwell.app"
+
   app "Inkwell.app"
 
   zap trash: [
