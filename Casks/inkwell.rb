@@ -1,6 +1,6 @@
 cask "inkwell" do
-  version "2.1.1"
-  sha256 "7c1c516bbe5008d650a1497f6ec194a0cc0f8bffa4e9a724dbed9a4d4a499826"
+  version "2.2.0"
+  sha256 "00eabf039928afc5e8f4fb11eb6631e43469a226f028945df6b458c80bb7a518"
 
   url "https://github.com/outemp/inkwell/releases/download/v#{version}/Inkwell-#{version}-arm64.dmg"
   name "Inkwell"
